@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+.banner {
+    width: 1280px;
+    height: 720px;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../img/juma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 220px;
+    box-sizing: border-box;
+
+    
+}
+
+
+a button {
+    background: green;
+    border: 0px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s all;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+
+}
+
+button:hover {
+    background: #265005;
+    
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 0px;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+h2 {font-weight: normal;-webkit-animation: fadein 2s;
+    animation: fadein 2s;}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
