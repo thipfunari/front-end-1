@@ -4,95 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Document</title>    
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="form-borda">
-        <h1>Formulário de Cadastro</h1>
-    
-        <form action="/registro" method="POST" id="form">
-            <fieldset form="form">
-                <legend>Dados de Cadastro</legend>
-                <p>
-                    <label for="nome">Nome: *</label>
-                    <input type="text" name="usuario" id="nome" placeholder="Seu nome aqui" required>
-                </p>
-                
-                <p>
-                    <label for="email">Email: *</label>
-                    <input type="email" name="email" id="email" placeholder="Seu email aqui" required>
-                </p>
-                
-                <p>
-                    <label for="idade">Idade: *</label>
-                    <input type="number" name="idade" id="idade" placeholder="Somente números" required>
-                </p>
-
-                <p>
-                    <label for="data" id="data">Data de Nascimento: *</label>
-                    <input type="date" id="data" value="2021-09-02" min="1910-01-01" max="2021-09-02">
-                </p>
-
-            
-
-            <p>
-                <label class="margin-bottom" for="comentario">Deixe o seu comentario:</label><br>
-                <textarea name="comentario" id="comentario" rows="5" cols="33" maxlength="130" placeholder="Deixe um comentário de até 130 caracteres"></textarea>
-            </p>
-
-            
-                <p>
-                    <label for="modelo" id="modelo">Escolha seu modelo preferido:</label>
-                    <select name="modelo" id="modelo">
-                        <option value="default">Selecionar</option>
-                        <optgroup value="0" label="Americano">
-                            <option value="volvo">Ford</option>
-                            <option value="saab">Chevrolet</option>
-                        </optgroup>
-                        <optgroup value="0" label="Alemão">
-                            <option value="opel">Mercedes-Benz</option>
-                            <option value="audi">Porsche</option>
-                        </optgroup>
-                    </select>
-                </p>             
-                
-                <p>
-                    <label class="margin-bottom">Hobbies:</label><br>
-
-                    <input type="checkbox" id="musica" name="musica">
-                    <label for="musica">Música</label>
-
-                    <input type="checkbox" id="pintura" name="pintura">
-                    <label for="pintura">Pintura</label>
-
-                    <input type="checkbox" id="jogos" name="jogos">
-                    <label for="jogos">Jogos</label>
-                <p>
-
-            </fieldset>
-            
-            <fieldset form="form">
-                <legend>Dados de Cadastro</legend>
-
-                <p>
-                    <label class="margin-bottom">Forma de pagamento padrão: *</label><br>
-
-                    <input type="radio" name="pag" value="pix" id="pix" checked>
-                    <label for="pix">Pix</label>
-
-                    <input type="radio" name="pag" value="credito" id="credito">
-                    <label for="pix">Crédito</label>
-
-                    <input type="radio" name="pag" value="boleto" id="boleto">
-                    <label for="boleto">Boleto</label>
-                <p>
-                
-            </fieldset>
-                <input type="reset" value="Cancelar">
-                <input type="submit" value="Enviar">
-           
-        </form>
-    </div>
+    <header>
+        <img class="logo-header" src="img/nike.png" alt="Nike Logotipo" title="Nike" />
+        <nav>
+            <ul>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Infantil</a></li>
+                <li><a href="#">SNKRS</a></li>
+                <li><a href="#">Ofertas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="corpo-site">
+        <a class="whatsapp-btn" target="_blank" href="#"><img class="logo-header" src="img/nike.png" alt="Botão WhatsApp - Entrar em Contato" title="Dúvidas? Entre em contato!" /></a>
+        <div class="box-produto">
+            <img src="img/produto1.jpg" alt="Air Jordan 4 Retro Womens Shimmer" title="Air Jordan 4 Retro Womens Shimmer" />
+            <h2>Air Jordan 4 Retro Womens<br><strong>Shimmer</strong></h2>
+            <p>R$ 799,90</p>
+            <a href="#">Comprar Agora</a>
+        </div>
+        <div class="box-produto">
+            <img src="img/produto2.jpg" alt="Nike Dunk Low Scrap Archeo Brown" title="Nike Dunk Low Scrap Archeo Brown" />
+            <h2>Nike Dunk Low Scrap<br><strong>Archeo Brown</strong></h2>
+            <p>R$ 799,90</p>
+            <a href="#">Comprar Agora</a>
+        </div>
+        <div class="box-produto">
+            <img src="img/produto3.jpg" alt="Nike Dunk Low Scrap Sea Glass" title="Nike Dunk Low Scrap Sea Glass" />
+            <h2>Nike Dunk Low Scrap<br><strong>Sea Glass</strong></h2>
+            <p>R$ 799,90</p>
+            <a href="#">Comprar Agora</a>
+        </div>
+        <div class="box-produto">
+            <img src="img/produto4.jpg" alt="Air Jordan 1 High Womens CMFT Lemon Twist" title="Air Jordan 1 High Womens CMFT Lemon Twist" />
+            <h2>Air Jordan 1 High Womens CMFT<br><strong>Lemon Twist</strong></h2>
+            <p>R$ 799,90</p>
+            <a href="#">Comprar Agora</a>
+        </div>
+        <div class="box-produto">
+            <img src="img/produto5.jpg" alt="Nike Dunk Hi Retro Midnight Navy" title="Nike Dunk Hi Retro Midnight Navy" />
+            <h2>Nike Dunk Hi Retro<br><strong>Midnight Navy</strong></h2>
+            <p>R$ 799,90</p>
+            <a href="#">Comprar Agora</a>
+        </div>
+        <div class="box-produto">
+            <img src="img/produto6.jpg" alt="Nike Dunk Low Retro Universty Red" title="Nike Dunk Low Retro Universty Red" />
+            <h2>Nike Dunk Low Retro<br><strong>Universty Red</strong></h2>
+            <p>R$ 799,90</p>
+            <a href="#">Comprar Agora</a>
+        </div>
+    </section>
 </body>
 </html>
