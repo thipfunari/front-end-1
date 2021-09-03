@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/**** RESET CSS*****/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**** RESET CSS*****/
+
+* {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(../img/sao-paulo-bg-2.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 0px;
+    background-image: url(../img/padrao-sp-header-bg.jpg);
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 25px;
+    padding-top: 100px;
+}
+
+p, h2, ul {
+    display: block;
+    max-width: 615px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h2 {
+    margin-top: 45px;
+    font-size: 26px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0px;
+    background-image: url(../img/padrao-sp-header-bg.jpg);
+    width: 100%;
+}
+
+footer a img {
+    max-width: 40px;
+  }
+
+footer a {
+    padding: 0 10px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+footer a:hover {
+    opacity: 1;
+}
