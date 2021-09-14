@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+body {
+    background: cyan;
+}
+
+@keyframes rotacaoBola {
+    0%{
+       transform: translateX(100px) rotate(0deg);
+    }
+    50%{
+        transform: translateX(600px) rotate(360deg);
+    }
+    100%{
+        transform: translateX(100px) rotate(0deg);
+    }
+}
+
+.rotacao {
+    animation: rotacaoBola 2s linear infinite;
+}
+
+a {
+    transition: all ease-in-out 0.3s;
+    background: brown;
+    color: #FFF;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    display: block;
+    width: 250px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+a:hover {background: #000;}
+
+
+@keyframes iconeAnimation {
+    0%{
+       transform: scale(0.5) skew(0);
+    }
+    50%{
+        transform: scale(1) skew(45deg, 45deg);
+    }
+    100%{
+        transform: scale(0.5) skew(0);
+    }
+}
+
+.skew {
+    animation: iconeAnimation 2s linear infinite;
+}
