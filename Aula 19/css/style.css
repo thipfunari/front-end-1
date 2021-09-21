@@ -2,24 +2,21 @@
 
             body {
 
-                background-color: #181818;
+                background-color: #00162b;
                 font-family: 'Roboto', sans-serif;
                 margin: 72px 0;
 
             }
 
-            .titulo-pagina {
-
-                color: rgb(236, 54, 78);
-                padding-left: 64px;
-                margin-bottom: 6px;
-
+            header img {
+                margin: 10px auto;
+                display: block;
             }
 
-            .page-description {
-
-                padding-left: 64px;
-                color: rgba(255, 255, 255, 0.6);
+            .titulo-pagina {
+                color: #fff;
+                text-align: center;
+                margin-bottom: 0px;
             }
 
             .videos {
@@ -29,13 +26,13 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 margin: 0 auto;
-                gap: 12px;
+                gap: 10px;
 
             }
 
             .video {
 
-                width: 30%;
+                width: 23%;
                 height: fit-content;
                 margin-top: 24px;
                 padding: 32px 12px;
@@ -54,6 +51,7 @@
             .thumb {
 
                 width: 100%;
+                border-radius: 10px;
 
             }
 
@@ -72,7 +70,6 @@
             .titulo-video {
 
                 margin: 8px 0 12px;
-                color: white;
 
             }
 
@@ -95,6 +92,5 @@
 
                 text-align: right;
                 display: block;
-                color: rgba(255, 255, 255, 0.4); font-size: 12px;
 
             }
