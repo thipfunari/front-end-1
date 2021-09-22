@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+body{
+    background-color: #141b21;
+}
+
+header {
+    background-color: #141b21;
+}
+
+.imgMenu {
+    width: 500px;
+    height: 329px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav a {
+    font-family: 'Kanit';
+    margin: 0 100px 0 30px;
+    text-transform: uppercase;
+    color: #3e474e;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #28b78d;
+    font-size: 31px;
+}
+.pagina_inicial{
+    right: 0;
+    font-family: 'Kanit';
+    margin: 0 519px 0 30px;
+    text-transform: uppercase;
+    color: #3e474e;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.inicioDre {
+    right: 0;
+    font-family: 'Kanit';
+    margin: 0 385px 0 30px;
+    text-transform: uppercase;
+    color: #3e474e;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+.inicioLegislacao {
+    right: 0;
+    font-family: 'Kanit';
+    margin: 0 400px 0 30px;
+    text-transform: uppercase;
+    color: #3e474e;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+.inicioPeriodicidade {
+    right: 0;
+    font-family: 'Kanit';
+    margin: 0 366px 0 30px;
+    text-transform: uppercase;
+    color: #3e474e;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.paginaDre {
+    right: 0;
+    font-family: 'Kanit';
+    margin: 0 70px 0 30px;
+    text-transform: uppercase;
+    color: #3e474e;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.paginaContato {
+    right: 0;
+    font-family: 'Kanit';
+    margin: 0 472px 0 30px;
+    text-transform: uppercase;
+    color: #3e474e;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.imgDre {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.corpo {
+    padding: 20px 0;
+    font-weight: bold;
+    margin: 0 0 10px;
+    background: #141b21;
+    color: white;
+    font-family: 'Kanit';
+}
+
+.tituloMapa {
+    top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #00ffb3;
+
+}
+
+#periodicidade {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #00ffb3;
+}
+
+#tituloLegislacao {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #00ffb3;
+}
+
+.leis {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #00ffb3;
+}
+
+.titulo_video {
+    margin: 40px 0 20px 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #00ffb3;
+}
+
+.iconeYT {
+    width: 60px;
+    height: 60px;
+}
+
+.video {
+    margin: 0 0 0 25px;
+}
+
+.titulo-social-media {
+    margin: 40px 0 0 530px;
+    position: absolute;
+    color: #00ffb3;
+    font-size: 25px;
+}
+
+.redes-sociais img{
+    width: 60px;
+    height: 60px;
+    margin: 150px 0 0 200px;
+
+}
+
+footer {
+    background-color: #141b21;
+    width: 60px;
+    height: 60px;
+    margin: 0px 0 0 400px;
+}
+
+.copyright {
+    margin: 0 0 0 110px;
+    position: absolute;
+    color: #00ffb3;
+}
+
+/* PÁGINA 2 - DRE */
+
+.tituloDre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #00ffb3;
+}
+
+#tituloDre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #00ffb3;
+}
+
+.textoForm {
+    margin: 0px 0 40px 10px;
+}
+
+.enviar{ /* Botão Enviar */
+
+    width: 40%; /* Altera as dimensões de um elemento(seja texto ou um botão) */
+    padding: 15px 0; /* Altera o espaço(espaçamento) de um elemento */
+    background: #bfe4d9; /* Muda a cor de fundo de um elemento */
+    color: #3e474e; /* Muda a cor de um elemento(fonte) */
+    font-weight: bold; /* Coloca a fonte em um botão, (nesse caso Negrito) */
+    font-size: 20px; /* Altera o tamanho de uma fonte */
+    border: none; /* tira a borda de um elemento */
+    border-radius: 5px; /* Arredonda a borda */
+    transition: 1s all; /* Adiciona tempo para mudança de algum elemento */
+    cursor: pointer; /* Colocar mãozinha quando passa por cima */
+    margin: 0 60px;
+}
+
+.enviar:hover {/* Botão Enviar */  /* Comando HOVER é para alterarmos um elemento quando é passado o mouse por cima */
+    background: #28b78d;
+    transform: scale(1.2); /* O 'transform' altera todo o elemento nesse caso, aumentamos o botao enviar em 20%*/
+}
+
+.titulo-input {
+    width: 418px;
+    height: 50px;
+    margin: 0 20px 20px 0px;
+    text-align: center;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 10px 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 10px;
+}
+
+/* Guia contato */
+.Contatos {
+    width: 1280px;
+    margin: 0 40px ;
+    padding: 0px 0;
+}
+
+.Contatos img {
+    width: 100px;
+    padding: 0px 0;
+}
+
+.Contatos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #3e474e;
+    border-radius: 10px;
+
+}
+.Contatos li:hover {
+    border-color: #28b78d;
+}
+
+.Contatos li:active {
+    border-color: #5ab675;
+}
+
+.Contatos li:hover h2{
+    font-size: 35px;
+    color: #28b78d;
+}
+
+.Contatos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contato-descricao {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* página dre */
+
+.liquido input {
+    width: 1215px;
+    padding: 15px 0; /* Altera o espaço(espaçamento) de um elemento */
+    color: #3e474e; /* Muda a cor de um elemento(fonte) */
+    font-weight: bold; /* Coloca a fonte em um botão, (nesse caso Negrito) */
+    border: none; /* tira a borda de um elemento */
+    border-radius: 30px; /* Arredonda a borda */
+    transition: 1s all; /* Adiciona tempo para mudança de algum elemento */
+    cursor: pointer; /* Colocar mãozinha quando passa por cima */
+}
+
+.liquido input:hover {
+    width: 1220px;
+    padding: 15px 0; /* Altera o espaço(espaçamento) de um elemento */
+    color: #000000; /* Muda a cor de um elemento(fonte) */
+    font-weight: bold; /* Coloca a fonte em um botão, (nesse caso Negrito) */
+    border: none; /* tira a borda de um elemento */
+    border-radius: 30px; /* Arredonda a borda */
+    transition: 1s all; /* Adiciona tempo para mudança de algum elemento */
+    cursor: pointer; /* Colocar mãozinha quando passa por cima */
+    background: #0ad699;
+}
+
+#dreJs input {
+   width: 600px;
+   padding: 5px;
+   border-radius: 30px;
+   border: none;
+   margin-left: 10px ;
+}
+
+
+
+#dreJs2 input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 1px;
+    border: none;
+}
+
+
+
+#funcaoR {
+    border-radius: 0px;
+}
+
+.tabelaDre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+#send {
+    padding: 20px;
+}
+
+#send:hover {
+    padding: 10px;
+    background: #6bccaf; /* Muda a cor de fundo de um elemento */
+    color: #3e474e; /* Muda a cor de um elemento(fonte) */
+    font-weight: bold; /* Coloca a fonte em um botão, (nesse caso Negrito) */
+    font-size: 20px;
+    border: none; /* tira a borda de um elemento */
+    border-radius: 50px; /* Arredonda a borda */
+    transition: 1s all; /* Adiciona tempo para mudança de algum elemento */
+    cursor: pointer; /* Colocar mãozinha quando passa por cima */
+}
+
+#tabelaF {
+    color: #6bccaf; /* Muda a cor de fundo de um elemento */
+    font-size: 25px;
+}
+
+
+
+/********************* CÓDIGOS THIAGO ********************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+.video-responsivo {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+
+.video-responsivo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  footer, .copyright, .titulo-social-media {
+    margin: 0px auto;
+}
+
+.titulo-social-media {
+    margin-top: 20px;
+}
+
+
+#tituloDre, #tituloLegislacao, #periodicidade {
+    font-size: 30px;
+}
+
+
+.inicioPeriodicidade {
+    margin: 0px;
+}
+
+header h1 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+nav {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 0px 40px;
+}
+
+
+
+nav ul a, nav a {
+    position: relative!important;
+    top: none!important;
+    display: inline-block;
+    width: 100%;
+    margin: 0!important;
+}
+
+footer {
+    width: 100%;
+    text-align: center;    
+}
+.titulo-social-media {
+    position: relative;
+    text-align: center;
+}
+
+.video-max-width {
+    max-width: 85%;
+}
+
+.titulo-social-media {
+    margin-bottom: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.redes-sociais img {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+.copyright {
+    position: relative;
+    display: block-inline;
+    width: 100%;
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+
+.imgMenu {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+
+
+
+
+
+/********************* MEDIA QUERIES *****************/
+
+
+@media (min-width: 700px) { 
+    
+    header h1, nav {
+        width: 50%;
+    } 
+
+    #tituloDre, #tituloLegislacao, #periodicidade {
+        font-size: 50px;
+    }
+
+    nav {
+        padding-top: 35px;
+    }
+
+    p {
+        font-size: 21px;
+    }
+
+    .corpo {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .corpo img {
+        display: block; 
+        margin: 0 auto;
+    }
+
+    .video-max-width {
+        margin:  0 auto;
+    }
+
+}

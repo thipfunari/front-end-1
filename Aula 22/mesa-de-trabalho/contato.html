@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DRE - Demonstrativo do Resultado do Exercicio</title>
+</head>
+<body>
+    <!-- Inicio do Colocando horas em javascript dentro do HTML -->
+<!--     <script>
+        let d = new Date();
+        document.body.innerHTML = "Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+        "</h1>"
+    </script> -->
+    <!-- Fim do Colocando horas em javascript dentro do HTML -->
+    <header>
+        <div>
+            <h1><img class="imgMenu" src="img/logo.png" alt="Logo site"></h1>
+            <nav>
+                <a class="pagina_inicial" href="index.html"> Inicio </a>
+                <ul>
+                    <a class="inicioDre" href="index.html"> O que é DRE? </a>
+                    <a class="inicioLegislacao" href="index.html"> Legislação </a>
+                    <a class="inicioPeriodicidade" href="index.html"> Periodicidade </a>
+                </ul>
+                <a class="paginaDre" href="dre.html"> Demonstração Resultado Exercicio </a>
+                <a class="paginaContato" href="contato.html"> Contato </a>
+            </nav>
+        </div>
+<!--         <img class="imgDre" src="img/dre-gif.gif"> -->
+    </header>
+    <main class="corpo">
+        <section class="historia">
+            <div>
+                <blockquote>
+                <h2 class="tituloMapa"> Nosso estabelecimento </h2>
+                <section class="mapa">
+                    <p>Nosso estabelecimento está localizado no coração da cidade</p>
+                    <div class="mapa-conteudo">	
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.974970884192!2d-47.393438385619135!3d-
+                        20.548204963134747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a89f411238bb%3A0x4a7402216c15e6d8!2
+                        sS%C3%A9rgio%20Cabeleireiro!5e0!3m2!1spt-BR!2sbr!4v1623277965023!5m2!1spt-BR!2sbr" width="100%" height="300" 
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </section>
+                </blockquote>
+             </div>  
+        </section>
+        <section>
+            <div>
+                <ul class="Contatos">
+                    <li>
+                        <h2>Telefone/Whatsapp</h2>
+                        <img src="img/whatsapp.png">
+                        <p class="contato-descricao"> De segunda a sexta-feira das 09:00h às 17:00h </p>
+                        <p class="contato-telefone" > Telefone e Whatsapp: (XX)XXXXX-XXXX</p>
+                    </li>
+                    <li>
+                        <h2>Email</h2>
+                        <img  src="img/email.png">
+                        <p class="contato-descricao"> Orçamentos e Dúvidas técnicas: </p>
+                        <p class="contato-email"> Orçamentos: <b>teste@teste.com.br</b> </p>
+                        <p class="contato-email"> Dúvidas técnicas: <b>teste3@teste.com.br</b> </p>
+                    </li>
+                    <li>
+                        <h2>Correspondência</h2>
+                        <img  src="img/correspondencia.png">
+                        <p class="contato-descricao"> A/C Doutor Contábil</p>
+                        <p class="produto-whatsapp"> Av. Paulista, nº ????</p>
+                        <p class="produto-whatsapp">Cep 00000-000 - São Paulo - SP </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <blockquote>
+            <h3 class="tituloMapa"> Se preferir, solicite um orçamento:  </h3>
+            <p class="textoForm"> Forneca abaixo os dados para solicitar um orçamento:  </p>
+        </blockquote>
+        <section>
+            <blockquote>
+            <form class="coletaDados">
+                <label for="nomesobrenome" class="titulo-input">Razão Social</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email" class="titulo-input">Email</label>
+                <input type="email" id="email" class="input-padrao"required placeholder="seuemail@dominio.com">
+
+                <label for="telefone" class="titulo-input">Telefone</label>
+                <input type="number" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+                <label for="mensagem" class="titulo-input">Mensagem</label>
+                <textarea cols="71" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset class="titulo-input">
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email">
+                        <input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+
+                    <label for="radio-telefone">
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                </fieldset>
+                <fieldset class="titulo-input">
+                    <legend>Qual a categoria da sua empresa em relação ao seu porte?</legend>
+                    <select>
+                        <optgroup label="Porte">
+                            <option>MEI - faturamento anual até R$ 81 mil no ano</option>
+                            <option>Microempresa (ME) - Faturamento anual até R$ 360 mil por ano</option>
+                            <option>Empresa de Pequeno Porte (EPP) -  Faturamento anual até R$ 4,8 milhões por ano</option>
+                            <option>Empresas de médio porte e grande porte -  Faturamento anual acima R$ 4,8 milhões por ano</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+            </form>
+            </blockquote>
+            <input type="submit" value="Enviar dados" class="enviar">
+        </section>
+        <section>
+            <div class="titulo-social-media">
+                <a>Acesse minhas Redes Sociais</a>
+            </div>
+            <div class="redes-sociais">
+                <a href="https://github.com/Loretto-dev"><img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/128/github-icon.png"></a>
+                <a href="https://www.instagram.com/eliveltonalves/"><img src="https://cdn.icon-icons.com/icons2/1584/PNG/128/3721672-instagram_108066.png"></a>
+                <a href="https://www.linkedin.com/in/elivelton-alves-13681811a/"><img src="https://icons.iconarchive.com/icons/danleech/simple/128/linkedin-icon.png"></a>
+                <a href="https://www.facebook.com/elivelton.alves.98"><img src=" https://icons.iconarchive.com/icons/danleech/simple/128/facebook-icon.png"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="img/logo.png" alt="Logo_site">
+        <p class="copyright">&copy; Copyright Loretto Empreendimentos - 2021</p>
+    </footer>
+</body>
+</html>
