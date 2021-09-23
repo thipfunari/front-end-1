@@ -56,6 +56,7 @@ html {
 
 body {
     position: relative;
+    background: #222;
 }
 
 header {
@@ -80,6 +81,8 @@ header a {
     color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 header a:hover { 
